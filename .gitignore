@@ -1,9 +1,40 @@
+## SERVER
+
+# evidence
+.git
+
 # dependencies
 /node_modules
+package-lock.json
 
 # misc
 config/.env
-client/
 
-.git
-package-lock.json
+
+
+## CLIENT
+
+# evidence
+client/.git
+
+# dependencies
+client/node_modules
+client/.pnp
+client/package-lock.json
+
+# testing
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
